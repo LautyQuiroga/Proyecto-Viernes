@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*INDEX*/
+
+h1{
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    background-color: lightblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    
+}
+
+.tercero{ 
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;}
+
+    p{
+        
+        color: rgb(185, 3, 3);
+        font-size: 30px;
+        padding: 30px;
+    }
+
+.navbar{
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white
+}
+
+.grid-galeria{
+    color: white;
+    background-color: black;
+display: grid;
+grid-template-rows: repeat(12, 550px);
+grid-template-columns: repeat(1,1fr);
+padding: 10px;
+text-align: center;}
+
+.grid-galeria img{
+    width: 70%;
+    height: 90%;
+}
+
+.despedida-index{
+    font-size: 30px;
+    text-align: center;
+    background-color: brown;
+}
+.redes-sociales ul a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;}
+
+.redes-img{
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+span{
+    font-size: 20px;
+}
+
+
+
+    /*LANZAMIENTOS*/
+
+    .games{
+        font-size: 30px;
+        color: blue;
+        padding: 30px;
+    }
+
+    h4{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+    }
+
+    .lanza{
+        background-image: url(../img/mariobrosswallpaper.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /*NOTICIAS*/
+.galeria-de-noticias{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(2,200px);
+    
+}
+.news{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-decoration: underline black;
+}
+.noticias{
+    background-image: url(../img/assasincreedwallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*GUIAS*/
+
+.guias a{
+    text-decoration: none;
+    background-color: rgb(20, 38, 196);
+    
+}
+.guias p{
+    color: rgb(248, 248, 248);
+    }
+
+.tutoriales{
+    background-image: url(../img/sonicwallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*PREGUNTAS*/
+.preguntas-item{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+.preguntas{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 559px) {
+.navbar {
+    flex-direction: column;
+}
+.grid-galeria {
+    grid-template-columns: 1fr;
+}
+}
+
+
