@@ -105,7 +105,7 @@ span{
     }
 
     .lanza{
-        background-image: url(../img/mariobrosswallpaper.webp);
+        background-image: url(../img/img/mariobrosswallpaper.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -124,7 +124,7 @@ span{
     text-decoration: underline black;
 }
 .noticias{
-    background-image: url(../img/assasincreedwallpaper.webp);
+    background-image: url(../img/img/assasincreedwallpaper.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -142,7 +142,7 @@ span{
     }
 
 .tutoriales{
-    background-image: url(../img/sonicwallpaper.webp);
+    background-image: url(../img/img/sonicwallpaper.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
