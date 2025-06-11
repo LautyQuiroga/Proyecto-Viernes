@@ -1,0 +1,103 @@
+/*INDEX*/
+
+h1{    
+    background-color: black;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+header{
+    .navbar{
+        background-color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin: 10px;
+        a{    
+            text-decoration: none;
+            background-color: black;
+            color: white
+        }
+    }
+    h2{    
+        font-size: 40px;
+        background-color: lightblue;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .tercero{    
+        color: blueviolet;
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+main{
+    p{
+
+    }
+    .grid-galeria{    
+        color: white;
+        background-color: black;
+        display: grid;
+        grid-template-rows: repeat(12, 550px);
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+        text-align: center;
+        .lista-grid{
+            h2{
+                font-size: 40px;
+                background-color: lightblue;
+                color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            img{    
+                width: 70%;
+                height: 90%;
+            }
+        }
+    }
+}
+
+footer{
+    .despedida-index{
+            font-size: 30px;
+            text-align: center;
+            background-color: brown;
+
+    }
+    .redes-sociales{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        h3{
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+        }
+        .navbar{
+            background-color: black;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            margin: 10px;
+            a{
+                text-decoration: none;
+                background-color: black;
+                color: white;
+                img{
+                    color: white;
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+    span{
+        font-size: 20px;
+    }
+}
