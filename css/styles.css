@@ -1,204 +1,279 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*INDEX*/
-
-h1{
-    background-color: black;
-    color: red;
-    font-size: 50px;
-    padding: 10px;
-    width: 100%;}
-
-/*h1:hover{
-  background-color: rgb(0, 0, 0);
+h1 {
+  background-color: black;
   color: red;
-  transition: all 0.4s ease;
-}*/
+  font-size: 50px;
+  padding: 10px;
+  width: 100%;
 
-
-h2{
-    font-size: 40px;
-    background-color: lightblue;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-h3{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    
-}
-
-.tercero{ 
-    color: blueviolet;
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;}
-
-    p{
-        
-        color: rgb(185, 3, 3);
-        font-size: 30px;
-        padding: 30px;
-    }
-
-
-.navbar{
+  a {
+    text-decoration: none;
     background-color: black;
-    font-size: 40px;
+    color: white;
+
+    a:hover {
+      text-decoration: none;
+      background-color: rgb(0, 0, 0);
+      color: rgb(240, 4, 4);
+      transition: all 0.4s ease;
+    }
+  }
+}
+
+header {
+  .navbar {
+    background-color: black;
+    font-size: 30px;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
-}
-.navbar:hover{
-  transition: all 0.4s ease;
-  background-color: rgb(0, 0, 0);
-  color: red;
-  font-size: 40px;
-  display: flex;
-  justify-content: space-between;
+
+    navbar:hover {
+      transition: all 0.4s ease;
+      background-color: rgb(0, 0, 0);
+      color: red;
+      font-size: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      text-decoration: none;
+      background-color: black;
+      color: white;
+
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    background-color: lightblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
 }
 
-a{   
-  text-decoration: none;
-  background-color: black;
-  color: white;
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
 }
 
-a:hover{
-  text-decoration: none;
-  background-color: rgb(0, 0, 0);
-  color: rgb(240, 4, 4);
-  transition: all 0.4s ease;
-}
+main {
+  p {
+    color: rgb(185, 3, 3);
+    font-size: 30px;
+    padding: 30px;
 
-.grid-galeria{
+  }
+
+  .grid-galeria {
     color: white;
     background-color: black;
-display: grid;
-grid-template-rows: repeat(12, 550px);
-grid-template-columns: repeat(1,1fr);
-padding: 10px;
-text-align: center;}
+    display: grid;
+    grid-template-rows: repeat(12, 550px);
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    text-align: center;
 
-.lista-grid{
-  padding: 10px;
+    .lista-grid {
+      padding: 10px;
+
+      h2 {
+        font-size: 40px;
+        background-color: lightblue;
+        color: rgb(255, 255, 255);
+        text-align: center;
+
+        img {
+          padding: 10px;
+          width: 70%;
+          height: 90%;
+        }
+      }
+    }
+  }
 }
 
-.grid-galeria img{
-  padding:10px;
-    width: 70%;
-    height: 90%;
-}
-
-.despedida-index{
+footer {
+  .despedida-index {
     font-size: 30px;
     text-align: center;
     background-color: brown;
-}
-.redes-sociales ul a{
+  }
+
+  .redes-sociales {
     text-decoration: none;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
 
-.redes-img{
-    color: white;
-    width: 100px;
-    height: 100px;
-}
-
-span{
-    font-size: 20px;
-}
-
-
-
-    /*LANZAMIENTOS*/
-
-    .games{
-        font-size: 30px;
-        color: blue;
-        padding: 30px;
+    h3 {
+      color: rgb(0, 0, 0);
+      font-size: 30px;
     }
 
-    h4{
-        text-align: center;
+    .navbar {
+      background-color: black;
+      font-size: 30px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 10px;
+
+      .navbar:hover {
+        transition: all 0.4s ease;
+        background-color: rgb(0, 0, 0);
+        color: red;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      a {
+        text-decoration: none;
         background-color: black;
         color: white;
-        font-size: 40px;
-    }
 
-    .lanza{
-        background-image: url(../img/img/mariobrosswallpaper.webp);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+        a:hover {
+          text-decoration: none;
+          background-color: rgb(0, 0, 0);
+          color: rgb(240, 4, 4);
+          transition: all 0.4s ease;
+        }
 
-    /*NOTICIAS*/
-.galeria-de-noticias{
+        .redes-img {
+          color: white;
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  span {
+    font-size: 20px;
+
+  }
+}
+
+/*LANZAMIENTOS*/
+.games {
+  font-size: 30px;
+  color: blue;
+  padding: 30px;
+}
+
+.lanza {
+  background-image: url(../img/img/mariobrosswallpaper.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  h2 {
+    font-size: 40px;
+    background-color: lightblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+  }
+
+  h4 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+
+    a {
+      text-decoration: none;
+      background-color: black;
+      color: white;
+    }
+  }
+
+  p {
+    color: rgb(185, 3, 3);
+    font-size: 30px;
+    padding: 30px;
+  }
+}
+
+/*NOTICIAS*/
+.noticias {
+  background-image: url(../img/img/assasincreedwallpaper.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .galeria-de-noticias {
     display: grid;
-    grid-template-columns: repeat(2,500px);
-    grid-template-rows: repeat(2,200px);
-    
-}
-.news{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    text-decoration: underline black;
-}
-.noticias{
-    background-image: url(../img/img/assasincreedwallpaper.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 200px);
+
+    .news {
+      font-family: 'Times New Roman', Times, serif;
+      padding: 10px;
+      text-decoration: underline black;
+
+      h3 {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 /*GUIAS*/
+.tutoriales {
+  background-image: url(../img/img/sonicwallpaper.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-.guias a{
-    text-decoration: none;
-    background-color: rgb(0, 0, 0);
-    
-}
-.guias p{
-    color: rgb(248, 248, 248);
+  .guias {
+    h3 {
+      color: rgb(0, 0, 0);
+      font-size: 30px;
+
+      a {
+        text-decoration: none;
+        background-color: rgb(0, 0, 0);
+      }
     }
 
-.tutoriales{
-    background-image: url(../img/img/sonicwallpaper.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    p {
+      color: rgb(248, 248, 248);
+    }
+  }
 }
+
 /*PREGUNTAS*/
-.preguntas-item{
-    color: black;
-    text-decoration: underline;
-    text-align: center;
+.preguntas-item {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
 }
-.preguntas{
-    background-color: black;
-    color: white;
-    font-size: 30px;
+
+.preguntas {
+  background-color: black;
+  color: white;
+  font-size: 30px;
 }
 
 /*RESPONSIVE*/
 @media (max-width: 559px) {
-.navbar {
+  .navbar {
     flex-direction: column;
-}
-.grid-galeria {
+  }
+
+  .grid-galeria {
     grid-template-columns: 1fr;
+  }
 }
-}
-
-
-
 
 /*# sourceMappingURL=ajstyles.css.map */
