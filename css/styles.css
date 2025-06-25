@@ -14,7 +14,7 @@ h1{
     width: 100%;}
 
 h1:hover{
-  background-color: black;
+  background-color: rgb(238, 235, 235);
   color: red;
   transition: all 0.4s ease;
 }
@@ -58,7 +58,7 @@ h3{
 }
 .navbar:hover{
   transition: all 0.4s ease;
-  background-color: black;
+  background-color: rgb(236, 0, 0);
   display: flex;
   justify-content: space-evenly;
 }
@@ -71,8 +71,8 @@ a{
 
 a:hover{
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition: all 0.4s ease;
 }
 
