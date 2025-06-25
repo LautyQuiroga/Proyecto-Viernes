@@ -1,4 +1,4 @@
-h1 a{
+h1{
   background-color: black;
   color: red;
   font-size: 50px;
@@ -52,8 +52,13 @@ main .grid-galeria .lista-grid h2 {
   text-align: center;
 }
 main .grid-galeria .lista-grid h2 img {
+  padding: 20px;
   width: 70%;
   height: 90%;
+}
+.lista-grid img{
+  width: 70%;
+    height: 90%;
 }
 
 .lanza {
@@ -164,6 +169,13 @@ footer div .redes-sociales .navbar a {
   color: white;
   width: 100px;
   height: 100px;
+}
+footer div .redes-sociales a img {
+  width: 100%;
+  max-width: 100px; /* Ajusta este valor según tus necesidades */
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
 }
 footer span {
   font-size: 20px;
