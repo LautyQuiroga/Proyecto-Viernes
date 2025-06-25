@@ -6,7 +6,7 @@
 
 /*INDEX*/
 
-h1{
+h1 a{
     background-color: black;
     color: red;
     font-size: 50px;
@@ -30,7 +30,8 @@ h3{
 .tercero{ 
     color: blueviolet;
     font-size: 30px;
-    padding: 10px;}
+    padding: 10px;
+    text-align: center;}
 
     p{
         
@@ -62,7 +63,12 @@ grid-template-columns: repeat(1,1fr);
 padding: 10px;
 text-align: center;}
 
+.lista-grid{
+  padding: 10px;
+}
+
 .grid-galeria img{
+  padding:10px;
     width: 70%;
     height: 90%;
 }
