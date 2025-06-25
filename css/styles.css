@@ -1,4 +1,4 @@
-h1 {
+h1 a{
   background-color: black;
   color: red;
   font-size: 50px;
@@ -161,20 +161,17 @@ footer div .redes-sociales .navbar a {
   text-decoration: none;
   background-color: black;
   color: white img;
-  color-color: white;
-  color-width: 100px;
-  color-height: 100px;
+  color: white;
+  width: 100px;
+  height: 100px;
 }
 footer span {
   font-size: 20px;
 }
 
-@media (max-width: 559px) {
-  .navbar {
-    flex-direction: column;
-  }
-  .grid-galeria {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
   }
 }
 
