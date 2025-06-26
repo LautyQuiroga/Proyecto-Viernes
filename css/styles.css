@@ -3,277 +3,63 @@
   margin: 0;
   padding: 0;
 }
-
-/*INDEX*/
-h1 {
+h1 > a {
+  text-decoration: none;
+  color: white;
+}
+h1 > a:hover {
+  text-decoration: none;
+  color: rgb(240, 4, 4);
+  transition: all 0.4s ease;
+}
+header .navbar {
   background-color: black;
-  color: red;
-  font-size: 50px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
-  width: 100%;
-
-  a {
-    text-decoration: none;
-    background-color: black;
-    color: white;
-
-    a:hover {
-      text-decoration: none;
-      background-color: rgb(0, 0, 0);
-      color: rgb(240, 4, 4);
-      transition: all 0.4s ease;
-    }
-  }
+  margin: 10px;
 }
-
-header {
-  .navbar {
-    background-color: black;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    margin: 10px;
-
-    navbar:hover {
-      transition: all 0.4s ease;
-      background-color: rgb(0, 0, 0);
-      color: red;
-      font-size: 40px;
-      display: flex;
-      justify-content: space-between;
-    }
-
-    a {
-      text-decoration: none;
-      background-color: black;
-      color: white;
-
-    }
-  }
-
-  h2 {
-    font-size: 40px;
-    background-color: lightblue;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
+header .navbar:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all 0.4s ease;
 }
-
+header .navbar a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar a:hover {
+  color: rgb(240, 4, 4);
+  transition: all 0.4s ease;
+}
+header h2 {
+  font-size: 40px;
+  background-color: lightblue;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 h3 {
   color: rgb(0, 0, 0);
   font-size: 30px;
 }
-
-main {
-  p {
-    color: rgb(185, 3, 3);
-    font-size: 30px;
-    padding: 30px;
-
-  }
-
-  .grid-galeria {
-    color: white;
-    background-color: black;
-    display: grid;
-    grid-template-rows: repeat(12, 550px);
-    grid-template-columns: repeat(1, 1fr);
-    padding: 10px;
-    text-align: center;
-
-    .lista-grid {
-      padding: 10px;
-
-      h2 {
-        font-size: 40px;
-        background-color: lightblue;
-        color: rgb(255, 255, 255);
-        text-align: center;
-
-        img {
-          padding: 10px;
-          width: 70%;
-          height: 90%;
-        }
-      }
-    }
-  }
-}
-
-footer {
-  .despedida-index {
-    font-size: 30px;
-    text-align: center;
-    background-color: brown;
-  }
-
-  .redes-sociales {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-
-    h3 {
-      color: rgb(0, 0, 0);
-      font-size: 30px;
-    }
-
-    .navbar {
-      background-color: black;
-      font-size: 30px;
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-      margin: 10px;
-
-      .navbar:hover {
-        transition: all 0.4s ease;
-        background-color: rgb(0, 0, 0);
-        color: red;
-        font-size: 40px;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      a {
-        text-decoration: none;
-        background-color: black;
-        color: white;
-
-        a:hover {
-          text-decoration: none;
-          background-color: rgb(0, 0, 0);
-          color: rgb(240, 4, 4);
-          transition: all 0.4s ease;
-        }
-
-        .redes-img {
-          color: white;
-          width: 100px;
-          height: 100px;
-        }
-      }
-    }
-  }
-
-  span {
-    font-size: 20px;
-
-  }
-}
-
-/*LANZAMIENTOS*/
-.games {
+main p {
+  color: rgb(185, 3, 3);
   font-size: 30px;
-  color: blue;
   padding: 30px;
 }
-
-.lanza {
-  background-image: url(../img/img/mariobrosswallpaper.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  h2 {
-    font-size: 40px;
-    background-color: lightblue;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-  }
-
-  h4 {
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-size: 40px;
-
-    a {
-      text-decoration: none;
-      background-color: black;
-      color: white;
-    }
-  }
-
-  p {
-    color: rgb(185, 3, 3);
-    font-size: 30px;
-    padding: 30px;
-  }
-}
-
-/*NOTICIAS*/
-.noticias {
-  background-image: url(../img/img/assasincreedwallpaper.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  .galeria-de-noticias {
-    display: grid;
-    grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(2, 200px);
-
-    .news {
-      font-family: 'Times New Roman', Times, serif;
-      padding: 10px;
-      text-decoration: underline black;
-
-      h3 {
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-      }
-    }
-  }
-}
-
-/*GUIAS*/
-.tutoriales {
-  background-image: url(../img/img/sonicwallpaper.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-  .guias {
-    h3 {
-      color: rgb(0, 0, 0);
-      font-size: 30px;
-
-      a {
-        text-decoration: none;
-        background-color: rgb(0, 0, 0);
-      }
-    }
-
-    p {
-      color: rgb(248, 248, 248);
-    }
-  }
-}
-
-/*PREGUNTAS*/
-.preguntas-item {
-  color: black;
-  text-decoration: underline;
+main .grid-galeria {
+  color: white;
+  background-color: black;
+  display: grid;
+  grid-template-rows: repeat(12, 550px);
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px;
   text-align: center;
 }
-
-.preguntas {
-  background-color: black;
-  color: white;
-  font-size: 30px;
+main .grid-galeria .lista-grid {
+  padding: 10px;
 }
-
-/*RESPONSIVE*/
-@media (max-width: 559px) {
-  .navbar {
-    flex-direction: column;
-  }
-
-  .grid-galeria {
-    grid-template-columns: 1fr;
-  }
-}
-
-/*# sourceMappingURL=ajstyles.css.map */
+main .grid-galeria .lista-grid h2{
+  font-size: 40px;
+  background-color: lightblue;
+  color: rgb(255, 255, 255)}
